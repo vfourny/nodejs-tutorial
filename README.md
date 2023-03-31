@@ -52,8 +52,8 @@ Testez votre application avec Postman ou votre navigateur.
 
 Vous allez devoir créer deux routes GET différentes:
 
-- La première sera une route GET qui utilisera l'endpoint '/' et renverra comme réponse un code status HTML 204 (No Response).
-- La seconde route sera une route GET qui utilisera l'endpoint '/:name'. Cet endpoint prendra la valeur renseignée à la place de *name* dans les **params** de la requête. La réponse affichera ensuite cette valeur comme message. La réponse enverra aussi un statut code 200 (Response).
+- La première sera une route GET qui utilisera l'endpoint `'/'` et renverra comme réponse un code status HTML 204 (No Response).
+- La seconde route sera une route GET qui utilisera l'endpoint `'/:name'`. Cet endpoint prendra la valeur renseignée à la place de *name* dans les **params** de la requête. La réponse affichera ensuite cette valeur comme message. La réponse enverra aussi un statut code 200 (Response).
 
 Vous testerez vos routes sur Postman.
 
