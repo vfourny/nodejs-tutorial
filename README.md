@@ -73,7 +73,7 @@ const app = express()
 app.use(bodyParser.text())
 ```
 
-*Remarque: La fonction use est un middleware, c'est à dire un morceau de code qui s'execute avant chaque requête quelque soit son type (GET, POST, PATCH, ...). Si vous voulez en savoir plus sur les middlewares vous trouverez plus d'informations [ici](https://expressjs.com/fr/guide/using-middleware.html).
+*Remarque: La fonction use est un middleware, c'est à dire un morceau de code qui s'execute avant chaque requête quelque soit son type (GET, POST, PATCH, ...). Si vous voulez en savoir plus sur les middlewares vous trouverez plus d'informations [ici](https://expressjs.com/fr/guide/using-middleware.html).*
 
 Lorsque vous ferez des requêtes Postman vous pourrez désormais insérer du texte dans l'onglet Body de votre requête. N'oubliez pas de la paramétrer en mode RAW.
 
